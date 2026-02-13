@@ -1,9 +1,7 @@
 # Structure-Based Virtual Screening and Machine Learning Rescoring of BACE1 Inhibitors
 
 **Date:** February 13, 2026  
-**Author:** [Your Name/Team Name]  
-**Subject:** Computational Drug Discovery & Cheminformatics
-
+**Author:** Manish Chandra
 ---
 
 ## 1. Abstract
