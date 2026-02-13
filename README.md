@@ -16,6 +16,13 @@ This project demonstrates a complete computational drug discovery pipeline integ
 ### 2.1 Background
 Alzheimer's disease is characterized by the accumulation of amyloid-beta plaques in the brain. The enzyme **BACE1** (Beta-site amyloid precursor protein cleaving enzyme 1) is responsible for the initial cleavage step that leads to plaque formation, making it a primary target for disease-modifying therapies.
 
+<iframe 
+  src="https://www.rcsb.org/3d-view/1FKN" 
+  width="800" 
+  height="600" 
+  frameborder="0">
+</iframe>
+
 ### 2.2 Problem Statement
 Molecular docking is a widely used technique to predict how drug candidates bind to protein targets. However, standard scoring functions (like Vina or AutoDock4 scores) often prioritize binding pose geometry over accurate affinity prediction. They frequently fail to distinguish between nanomolar (active) and millimolar (inactive) binders effectively.
 
