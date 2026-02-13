@@ -1,12 +1,15 @@
 # Structure-Based Virtual Screening and Machine Learning Rescoring of BACE1 Inhibitors
 
-**Date:** February 13, 2026  
-**Author:** Manish Chandra
----
 
 ## 1. Abstract
 
 This project demonstrates a complete computational drug discovery pipeline integrating structure-based molecular docking with data-driven machine learning (ML) rescoring. Focusing on **Beta-Secretase 1 (BACE1)**, a key therapeutic target for Alzheimer's disease, we curated a dataset of experimentally validated inhibitors from ChEMBL. We utilized open-source tools—**AutoDock-GPU**, **RDKit**, and **OpenBabel**—to perform high-throughput virtual screening. The project aims to evaluate the correlation between calculated binding energies and experimental biological activity ($pIC_{50}$), setting the stage for advanced rescoring functions to improve prediction accuracy.
+
+<img width="919" height="679" alt="image" src="https://github.com/user-attachments/assets/c2995580-7810-424a-8826-b0912be98a77" />
+<img width="919" height="679" alt="image" src="https://github.com/user-attachments/assets/9ed6aa8c-489e-41e0-ba0e-b6643fdefcee" />
+<img width="919" height="679" alt="image" src="https://github.com/user-attachments/assets/b47dc4f3-c058-4883-937c-efcf4ef1198a" />
+
+
 
 ## 2. Introduction
 
