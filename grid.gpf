@@ -1,0 +1,23 @@
+
+npts 60 60 60                        # num.grid points in xyz
+gridfld protein.maps.fld                 # grid_data_file
+spacing 0.375                             # spacing(A)
+receptor_types A C HD N NA OA SA          # receptor atom types
+ligand_types A C F NA OA N HD Br Cl I S P # ligand atom types
+smooth 0.5                                # store minimum energy w/in rad(A)
+map protein.A.map            # atom-specific affinity map
+map protein.C.map            # atom-specific affinity map
+map protein.F.map            # atom-specific affinity map
+map protein.NA.map           # atom-specific affinity map
+map protein.OA.map           # atom-specific affinity map
+map protein.N.map            # atom-specific affinity map
+map protein.HD.map           # atom-specific affinity map
+map protein.Br.map           # atom-specific affinity map
+map protein.Cl.map           # atom-specific affinity map
+map protein.I.map            # atom-specific affinity map
+map protein.S.map            # atom-specific affinity map
+map protein.P.map            # atom-specific affinity map
+elecmap protein.e.map        # electrostatic potential map
+dsolvmap protein.d.map              # desolvation potential map
+dielectric -0.1465                        # <0, AD4 distance-dep.diel;>0, constant
+gridcenter 10.261 -3.492 -0.127      # xyz-coordinates or auto

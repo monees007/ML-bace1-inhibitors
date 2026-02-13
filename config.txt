@@ -1,0 +1,18 @@
+receptor = protein.pdbqt
+
+# Center of the box (REPLACE WITH YOUR NUMBERS FROM get_box.py)
+center_x = 10.261
+center_y = -3.492
+center_z = -0.127
+
+# Size of the box (Angstroms)
+# 20x20x20 is usually enough for BACE1.
+# If the ligand is huge, try 25x25x25.
+size_x = 20
+size_y = 20
+size_z = 20
+
+# Computational parameters
+exhaustiveness = 8
+num_modes = 9
+energy_range = 3
